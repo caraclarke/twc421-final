@@ -4,9 +4,11 @@ var babel = require('gulp-babel');
 var cache = require('gulp-cache');
 var cssnano = require('gulp-cssnano');
 var del = require('del');
+var ejs = require('gulp-ejs');
 var eslint = require('gulp-eslint');
 var gulp = require('gulp');
 var gulpIf = require('gulp-if');
+var gutil = require('gulp-util');
 var imagemin = require('gulp-imagemin');
 var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
@@ -38,11 +40,31 @@ gulp.task('clean:js', function() {
   return del.sync('js/build');
 });
 
+// clean ejs
+gulp.task('clean:ejs', function() {
+  return del.sync('app/*.html');
+});
+
 // minify images
 gulp.task('images', function() {
   return gulp.src('app/img/**/*.+(png|jpg|gif|svg)')
     .pipe(cache(imagemin()))
     .pipe(gulp.dest('dist/img'))
+});
+
+// compile ejs to html
+gulp.task('ejs', ['clean:ejs'], function() {
+  return gulp.src('app/views/pages/*.ejs')
+    .pipe(ejs(
+      {
+        data: require('./app/js/data.json')
+      },
+      { ext:'.html' }))
+    .on('error', gutil.log)
+    .pipe(gulp.dest('app/'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
 });
 
 // clean, lint, compile and minify js
@@ -105,13 +127,14 @@ gulp.task('serve:build', ['build'], function() {
 
 // build
 gulp.task('build', function(cb) {
-  runSequence('cache:clear', 'clean:dist', ['sass', 'js', 'images'], 'useref', cb);
+  runSequence('cache:clear', 'clean:dist', ['sass', 'js', 'images'], 'ejs', 'useref', cb);
 });
 
 // watch
-gulp.task('watch', ['browserSync', 'sass', 'images', 'useref'], function() {
+gulp.task('watch', ['browserSync', 'sass', 'images', 'ejs', 'useref'], function() {
   gulp.watch('app/scss/**/*.+(scss|css)', ['sass']);
   gulp.watch('app/img/**/*.+(png|jpg|gif|svg)', ['images']);
+  gulp.watch('app/views/**/*.ejs', ['ejs']);
   gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload);
 });

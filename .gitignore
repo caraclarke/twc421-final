@@ -10,3 +10,6 @@ app/css/styles.css
 app/js/build
 # dont need because committing build index.html #
 app/index.html
+
+old/
+app/*.ejs
