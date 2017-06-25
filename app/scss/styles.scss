@@ -35,7 +35,11 @@ a {
 // global classes
 
 .sans {
-  font-family: sans-serif;
+  font-family: $sans-serif;
+}
+
+.serif {
+  font-family: $cursive;
 }
 
 .italic {
@@ -136,11 +140,7 @@ a {
 }
 
 // footer
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  // fixed height of footer must match body margin bottom
+footer {
   height: 60px;
-  background-color: $neutral-white;
+  margin-top: 25px;
 }
