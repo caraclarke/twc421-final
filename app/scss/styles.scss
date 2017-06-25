@@ -30,3 +30,12 @@ body {
   height: 60px;
   background-color: $neutral-white;
 }
+
+// contact page
+
+.contact-photo {
+  background-image: url(../img/contact-phone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}

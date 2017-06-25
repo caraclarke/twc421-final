@@ -1,7 +1,46 @@
 <% include ../partials/_header %>
 
+<% include ../components/_contact %>
+
 <div class="container">
-  <p>contact me</p>
+  <h2>My passion is helping you</h2>
+
+  <p>Whether you are reaching out to me as a new client, a returning client or a current client I am here to help. I am always happy to answer questions and provide support for any issues that arise with integrating my designs.</p>
+
+  <h3>Find me on Social Media</h3>
+
+  <p>instagram: @sketchesbysusan</p>
+  <p>facebook: facebook.com/sketchesbysusan</p>
+
+  <h2>Let's Connect</h2>
+
+  <form>
+
+    <label class="block">First Name* <br />
+      <input type="text" placeholder="First Name" />
+    </label>
+
+    <label class="block">Last Name* <br />
+      <input type="text" placeholder="Last Name" />
+    </label>
+
+    <label class="block">Email* <br />
+      <input type="email" placeholder="Email Address" />
+    </label>
+
+    <label class="block">Message* <br />
+      <textarea></textarea>
+    </label>
+
+    <label class="block">I am a: * <br />
+      <input type="radio" name="clientType" value="new"> New Client<br>
+      <input type="radio" name="clientType" value="existing"> Existing Client<br>
+    </label>
+
+    <button class="btn btn-info btn-md btn-block" type="button">Submit</button>
+
+  </form>
+
 </div>
 
 <% include ../partials/_footer %>
