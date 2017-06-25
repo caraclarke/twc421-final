@@ -1,0 +1,14 @@
+@import "base/variables";
+
+body {
+  background-color: $dark-green;
+  color: $neutral-white;
+}
+
+.chin {
+  border: 3px solid $neutral-white;
+}
+
+.img-circle {
+  border-radius: 50%;
+}

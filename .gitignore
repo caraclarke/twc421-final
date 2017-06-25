@@ -1,0 +1,12 @@
+node_modules/
+
+notes.txt
+.DS_Store
+
+# me #
+
+# ignore compiled js/css file in app folder #
+app/css/styles.css
+app/js/build
+# dont need because committing build index.html #
+app/index.html
