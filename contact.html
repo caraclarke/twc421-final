@@ -25,7 +25,7 @@
    </div>
    <div id="navbar" class="navbar-collapse collapse">
      <ul class="nav navbar-nav">
-       <li class="active"><a href="#">Home</a></li>
+       <li class="active"><a href="index.html">Home</a></li>
      </ul>
      <ul class="nav navbar-nav navbar-right">
        <li><a href="about.html">About</a></li>
@@ -40,48 +40,57 @@
 
 
 <div class="jumbotron contact-photo">
-  <h2>I'm here to help</h2>
+  <h2 class="text-center contact-text">I'm here to help</h2>
 </div>
 
 
 <div class="container">
+  <div class="col-sm-6">
   <h2>My passion is helping you</h2>
 
   <p>Whether you are reaching out to me as a new client, a returning client or a current client I am here to help. I am always happy to answer questions and provide support for any issues that arise with integrating my designs.</p>
 
-  <h3>Find me on Social Media</h3>
+  <h2>Find me on Social Media</h2>
 
-  <p>instagram: @sketchesbysusan</p>
-  <p>facebook: facebook.com/sketchesbysusan</p>
+  <p><span class="dark-red">instagram</span>: <strong>@sketchesbysusan</strong></p>
+  <p><span class="dark-red">facebook</span>: <strong>facebook.com/sketchesbysusan</strong></p>
+  <p><span class="dark-red">behance</span>: <strong>behance.com/sketchesbysusan</strong></p>
+  <p><span class="dark-red">medium</span>: <strong>medium.com/sketchesbysusan</strong></p>
+</div>
 
+<div class="col-sm-6">
   <h2>Let's Connect</h2>
 
-  <form>
+  <form class="contact-form col-sm-8">
 
-    <label class="block">First Name* <br />
-      <input type="text" placeholder="First Name" />
-    </label>
+  <label class="block form-label grey">First Name <span class="red">*</span> <br />
+    <input type="text" class="width" placeholder="First Name" />
+  </label>
 
-    <label class="block">Last Name* <br />
-      <input type="text" placeholder="Last Name" />
-    </label>
+  <label class="block form-label grey">Last Name <span class="red">*</span> <br />
+    <input type="text" class="width" placeholder="Last Name" />
+  </label>
 
-    <label class="block">Email* <br />
-      <input type="email" placeholder="Email Address" />
-    </label>
+  <label class="block form-label grey">Email <span class="red">*</span> <br />
+    <input type="email" class="width" placeholder="Email Address" />
+  </label>
 
-    <label class="block">Message* <br />
-      <textarea></textarea>
-    </label>
+  <label class="block form-label grey">Message <span class="red">*</span> <br />
+    <textarea class="width"></textarea>
+  </label>
 
-    <label class="block">I am a: * <br />
-      <input type="radio" name="clientType" value="new"> New Client<br>
-      <input type="radio" name="clientType" value="existing"> Existing Client<br>
-    </label>
+  <label class="block form-label grey">I am a: <span class="red">*</span> <br />
+    <input class="radio-input" type="radio" name="clientType" value="new"> New Client<br>
+    <input class="radio-input" type="radio" name="clientType" value="existing"> Existing Client<br>
+  </label>
 
-    <button class="btn btn-info btn-md btn-block" type="button">Submit</button>
+  <span class="col-sm-6 btn-container">
+    <button class="btn btn-warning btn-md btn-block" type="button">Submit</button>
+  </span>
 
-  </form>
+</form>
+
+</div>
 
 </div>
 
