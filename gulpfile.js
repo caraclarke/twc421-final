@@ -62,6 +62,7 @@ gulp.task('ejs', ['clean:ejs'], function() {
       { ext:'.html' }))
     .on('error', gutil.log)
     .pipe(gulp.dest('app/'))
+    .pipe(gulp.dest('dist/'))
     .pipe(browserSync.reload({
       stream: true
     }))
