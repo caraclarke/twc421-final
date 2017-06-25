@@ -13,5 +13,71 @@
       "name": "three",
       "id": "test-three"
     }
+  ],
+  "rowOne": [
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=1",
+      "clientName": "Hubspot",
+      "role": "Website Redesign"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=2",
+      "clientName": "",
+      "role": "Website Redesign"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=3",
+      "clientName": "",
+      "role": "Photographer"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=4",
+      "clientName": "",
+      "role": "Art Director"
+    }
+  ],
+  "rowTwo": [
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=5",
+      "clientName": "",
+      "role": "Art Director"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=7",
+      "clientName": "",
+      "role": "Website Redesign"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=9",
+      "clientName": "",
+      "role": "Photographer"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=11",
+      "clientName": "",
+      "role": "Website Redesign"
+    }
+  ],
+  "rowThree": [
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=12",
+      "clientName": "",
+      "role": "Website Redesign"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=13",
+      "clientName": "",
+      "role": "Art Director"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=14",
+      "clientName": "",
+      "role": "Art Director"
+    },
+    {
+      "imgSrc": "http://loremflickr.com/750/420/company,city?random=15",
+      "clientName": "",
+      "role": "Photographer"
+    }
   ]
 }
