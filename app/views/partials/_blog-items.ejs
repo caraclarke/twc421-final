@@ -1,0 +1,18 @@
+<div class="col-md-8">
+
+  <% data.blog.forEach(function(item) { %>
+      <h2><a href="#"><%= item.title %></a></h2>
+      <p class="lead">by Susan</p>
+
+      <p><span class="glyphicon glyphicon-time"></span> Posted on <%= item.date %></p>
+
+      <hr>
+        <img class="img-responsive" src="<%= item.imgSrc %>" />
+      <hr>
+
+      <p><%- item.blurb %></p>
+
+      <a class="btn btn-info btn-md" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <% }) %>
+
+</div>

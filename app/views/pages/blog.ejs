@@ -1,7 +1,16 @@
 <% include ../partials/_header %>
 
 <div class="container">
-  <p>blog me</p>
+  <div class="row">
+    <% include ../partials/_blog-items %>
+
+    <% include ../partials/_blog-sidebar %>
+  </div>
+  <ul class="pager">
+    <li class="previous">
+      <a href="#">&larr; Older</a>
+    </li>
+  </ul>
 </div>
 
 <% include ../partials/_footer %>
