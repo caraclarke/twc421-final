@@ -8,61 +8,61 @@
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=2",
-      "clientName": "",
+      "clientName": "Criteo",
       "role": "Website Redesign"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=3",
-      "clientName": "",
+      "clientName": "Codiscope",
       "role": "Photographer"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=4",
-      "clientName": "",
+      "clientName": "Aquent",
       "role": "Art Director"
     }
   ],
   "rowTwo": [
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=5",
-      "clientName": "",
+      "clientName": "Burke Software",
       "role": "Art Director"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=7",
-      "clientName": "",
+      "clientName": "I am CS",
       "role": "Website Redesign"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=9",
-      "clientName": "",
+      "clientName": "Girl Develop It",
       "role": "Photographer"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=11",
-      "clientName": "",
+      "clientName": "CVS Labs",
       "role": "Website Redesign"
     }
   ],
   "rowThree": [
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=12",
-      "clientName": "",
+      "clientName": "CVS Health",
       "role": "Website Redesign"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=13",
-      "clientName": "",
+      "clientName": "CBS",
       "role": "Art Director"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=14",
-      "clientName": "",
+      "clientName": "Radio1",
       "role": "Art Director"
     },
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=15",
-      "clientName": "",
+      "clientName": "City of Boston",
       "role": "Photographer"
     }
   ],

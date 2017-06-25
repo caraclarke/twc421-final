@@ -125,6 +125,15 @@ a {
   margin-bottom: 25px;
 }
 
+.pagination>li>a, .pagination>li>span {
+  color: $dark-red;
+  border: 1px solid $neutral-grey;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  background-color: $neutral-grey;
+  border-color: $neutral-grey;
+}
 
 // footer
 .footer {
