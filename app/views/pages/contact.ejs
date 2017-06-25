@@ -3,43 +3,24 @@
 <% include ../components/_contact %>
 
 <div class="container">
+  <div class="col-sm-6">
   <h2>My passion is helping you</h2>
 
   <p>Whether you are reaching out to me as a new client, a returning client or a current client I am here to help. I am always happy to answer questions and provide support for any issues that arise with integrating my designs.</p>
 
-  <h3>Find me on Social Media</h3>
+  <h2>Find me on Social Media</h2>
 
-  <p>instagram: @sketchesbysusan</p>
-  <p>facebook: facebook.com/sketchesbysusan</p>
+  <p><span class="dark-red">instagram</span>: <strong>@sketchesbysusan</strong></p>
+  <p><span class="dark-red">facebook</span>: <strong>facebook.com/sketchesbysusan</strong></p>
+  <p><span class="dark-red">behance</span>: <strong>behance.com/sketchesbysusan</strong></p>
+  <p><span class="dark-red">medium</span>: <strong>medium.com/sketchesbysusan</strong></p>
+</div>
 
+<div class="col-sm-6">
   <h2>Let's Connect</h2>
 
-  <form>
-
-    <label class="block">First Name* <br />
-      <input type="text" placeholder="First Name" />
-    </label>
-
-    <label class="block">Last Name* <br />
-      <input type="text" placeholder="Last Name" />
-    </label>
-
-    <label class="block">Email* <br />
-      <input type="email" placeholder="Email Address" />
-    </label>
-
-    <label class="block">Message* <br />
-      <textarea></textarea>
-    </label>
-
-    <label class="block">I am a: * <br />
-      <input type="radio" name="clientType" value="new"> New Client<br>
-      <input type="radio" name="clientType" value="existing"> Existing Client<br>
-    </label>
-
-    <button class="btn btn-info btn-md btn-block" type="button">Submit</button>
-
-  </form>
+  <% include ../components/_contact-form %>
+</div>
 
 </div>
 

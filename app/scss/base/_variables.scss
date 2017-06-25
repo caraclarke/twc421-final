@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster'); // cursive
+@import url('https://fonts.googleapis.com/css?family=Arimo'); // sans serif
+
 // colors
 $neutral-black: #000;
 $neutral-white: #fff;
@@ -6,3 +9,7 @@ $neutral-white: #fff;
 $neutral-grey: #191919;
 $dark-red: #600;
 $red: #9c0000;
+
+// fonts
+$cursive: 'Lobster', serif, sans-serif;
+$sans-serif: 'Arimo', sans-serif;

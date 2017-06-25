@@ -7,6 +7,19 @@ body {
   // min-height: 2000px;
   padding-top: 70px;
   margin-bottom: 60px;
+  font-family: $sans-serif;
+}
+
+// headers
+h1, h2, h3, h4, h5 {
+  font-family: $cursive;
+  color: $red;
+}
+
+// global classes
+
+.sans {
+  font-family: sans-serif;
 }
 
 .italic {
@@ -21,14 +34,16 @@ body {
   max-height: 270px;
 }
 
-// footer
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  // fixed height of footer must match body margin bottom
-  height: 60px;
-  background-color: $neutral-white;
+.dark-red {
+  color: $dark-red;
+}
+
+.red {
+  color: $red;
+}
+
+.grey {
+  color: $neutral-grey;
 }
 
 // contact page
@@ -40,7 +55,49 @@ body {
   min-height: 400px;
 }
 
+.contact-text {
+  color: $neutral-white;
+  font-size: 80px;
+}
+
+.contact-form {
+  padding: 15px;
+  padding-top: 0;
+
+  .form-label {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .width {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+  }
+
+  .radio-input {
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+
+  .btn-container {
+    margin-top: 20px;
+    padding: 0;
+  }
+}
+
 // portfolio
 .portfolio-item {
   margin-bottom: 25px;
+}
+
+
+// footer
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // fixed height of footer must match body margin bottom
+  height: 60px;
+  background-color: $neutral-white;
 }
