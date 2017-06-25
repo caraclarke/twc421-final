@@ -1,19 +1,5 @@
 {
   "title": "Data imported from JSON",
-  "test": [
-    {
-      "name": "one",
-      "id": "test-one"
-    },
-    {
-      "name": "two",
-      "id": "test-two"
-    },
-    {
-      "name": "three",
-      "id": "test-three"
-    }
-  ],
   "rowOne": [
     {
       "imgSrc": "http://loremflickr.com/750/420/company,city?random=1",
